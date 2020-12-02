@@ -7,25 +7,29 @@
     <!-- <link rel="icon" href="assets/img/logo-nbg.png"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
     <div class='background'>
         <img id='top--left' src="assets/img/top_left.png" alt="">
     </div>
-    <div class="nav--container">
+    <div class="nav--container" id='About'>
         <div class="nav--buttons">
             <div class ="nav--button">
-                <a id='about' href="#about">About</a>
+                <a id='about' href="#About">About</a>
             </div>
             <div class ="nav--button">
-                <a id='experience' href="#experience">Experience</a>
+                <a id='experience' href="#Experience">Experience</a>
             </div>
             <div class ="nav--button">
-                <a id='projects' href="#projects">Projects</a>
+                <a id='projects' href="#Projects">Projects</a>
             </div>
             <div class ="nav--button">
-                <a id='contact' href="#contact">Contact</a>
+                <a id='contact' href="#Contact">Contact</a>
             </div>
             <div class ="nav--button">
                 <a id='resume'href="https://drive.google.com/file/d/176FRxCoHoDT94qNk15Zlhm7L0UhwtT9K/view?usp=sharing">Resume</a>
@@ -63,7 +67,7 @@
         <div class='background'>
             <img id='mid--right' src="assets/img/mid_right.png" alt="">
         </div>
-        <div class='experience'>
+        <div class='experience' id="Experience">
             <div class='experience--divider'>
                 <div class='divider--container' id='front--exp--divider'>
                     <hr class="solid">
@@ -80,8 +84,8 @@
                     <div class='experience--bar'>
                         <div class='experience--buttons'>
                             <div class='experience--button' id='button--study_cat'>
-                                <div class='vertical-line'></div>
-                                <h5>Study Cat</h5>
+                                <div class='vertical-line' id='initial--button'></div>
+                                <h5 id='initial--button--tag'>Study Cat</h5>
                             </div>
                             <div class='experience--button' id='button--csm'>
                                 <div class='vertical-line'></div>
@@ -103,52 +107,62 @@
                     </div>
                     <div class='experience--container exp--study_cat'>
                         <div class='exp--info'>
-                            <h1 id='exp--title'>Study Cat</h1>
-                            <h2 id='exp--description'>Multi-Lingual Edtech Company</h2>
-                            <h3 id='exp--position'>Software Engineering Intern</h3>
+                            <h1 class='exp--title'>Study Cat</h1>
+                            <h2 class='exp--description'>Multi-Lingual Edtech Company</h2>
+                            <h3 class='exp--position'>Software Engineering Intern</h3>
                         </div>
                         <div class='exp--logo'>
-                            <img src="assets/img/study-cat.jpg" alt="">
+                            <a href='https://studycat.com/'>
+                                <img src="assets/img/study-cat.jpg" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class='experience--container hidden exp--csm'>
                         <div class='exp--info'>
-                            <h1 id='exp--title'>Computer Science Mentor</h1>
-                            <h2 id='exp--description'>CS Guidance & Tutoring Club</h2>
-                            <h3 id='exp--position'>CS61B: Junior Mentor</h3>
+                            <h1 class='exp--title'>Computer Science Mentor</h1>
+                            <h2 class='exp--description'>CS Guidance & Tutoring Club</h2>
+                            <h3 class='exp--position'>CS61B: Junior Mentor</h3>
                         </div>
                         <div class='exp--logo'>
-                            <img src="assets/img/csm.png" alt="">
+                            <a href='https://csmentors.berkeley.edu'>
+                                <img src="assets/img/csm.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class='experience--container hidden exp--project_taiwan'>
                         <div class='exp--info'>
-                            <h1 id='exp--title'>Project Taiwan</h1>
-                            <h2 id='exp--description'>Deliberative Democracy Advocacy Group</h2>
-                            <h3 id='exp--position'>Tech Lead</h3>
+                            <h1 class='exp--title'>Project Taiwan</h1>
+                            <h2 class='exp--description'>Deliberative Democracy Advocacy Group</h2>
+                            <h3 class='exp--position'>Tech Lead</h3>
                         </div>
                         <div class='exp--logo'>
-                            <img src="assets/img/project-taiwan.png" alt="">
+                            <a href='https://en.projecttaiwan.org/'> 
+                                <img src="assets/img/project-taiwan.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class='experience--container hidden exp--lab_assistant'>
                         <div class='exp--info'>
-                            <h1 id='exp--title'>Lab Assistant</h1>
-                            <h2 id='exp--description'>Berkeley's CS Data Structures Course</h2>
-                            <h3 id='exp--position'>Teaching/Lab Assistant</h3>
+                            <h1 class='exp--title'>Lab Assistant</h1>
+                            <h2 class='exp--description'>Berkeley's CS Data Structures Course</h2>
+                            <h3 class='exp--position'>Teaching/Lab Assistant</h3>
                         </div>
                         <div class='exp--logo'>
-                            <img src="assets/img/eecs.jpeg" alt="">
+                            <a href='https://cs61bl.org/su20/'>
+                                <img src="assets/img/eecs.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class='experience--container hidden exp--tsa'>
                         <div class='exp--info'>
-                            <h1 id='exp--title'>Taiwanese Student Association</h1>
-                            <h2 id='exp--description'>Taiwanese Cultural Community</h2>
-                            <h3 id='exp--position'>Webmaster</h3>
+                            <h1 class='exp--title'>Taiwanese Student Association</h1>
+                            <h2 class='exp--description'>Taiwanese Cultural Community</h2>
+                            <h3 class='exp--position'>Webmaster</h3>
                         </div>
                         <div class='exp--logo'>
-                            <img src="assets/img/tsa.jpg" alt="">
+                            <a href='https://tsa.berkeley.edu/'>
+                                <img src="assets/img/tsa.jpg" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -203,12 +217,137 @@
                 </div>
             </div>
         </div>
-        <div class='background'>
-            <img id='mid--left' src="assets/img/mid_left.png" alt="">
+        <div class='background' id='mid--left' >
+            <img src="assets/img/mid_left.png" alt="">
+        </div>
+        <div class='project'>
+            <div class='project--divider' id='Projects'>
+                <div class='divider--container' id='front--pro--divider'>
+                    <hr class="solid">
+                </div>
+                <div class='divider--container' id='pro--divider--label'>
+                    <h1>PROJECTS</h1>
+                </div>
+                <div class='divider--container'id='back--pro--divider'>
+                    <hr class="solid">
+                </div>
+            </div>
+            <div class='project--body'>
+                <div class='project--container'>
+                    <div class='project--info'>
+                        <a href='https://github.com/jeffcheng1234/BearCloud'>
+                            <h1>Bear Chat</h1>
+                        </a>
+                        <h3>Social Media Chat Platform</h3>
+                        <div class='description'>
+                            <p>
+                                Bear Chat is a full stack social media chat platform that allows users to message others in his or her friend circle and share content or images that can be seen 
+                                by others. It uses Go for backend, SQL as the database storing user information, AWS Neptune a graph database for storing friends' network,
+                                and dockers to provide different micro-services. Bear Chat has secure authentication procedures, email confirmation and recovery protocols. The frontend is a simple
+                                UI that's still being worked on, and it's currently deployed on a Virtual Machine hosted on EC2.
+                            </p>
+                        </div>
+                        <div class='tools'>
+                            <a href='https://github.com/jeffcheng1234/BearCloud'>
+                                <img src="assets/img/github_logo.png" alt="">
+                            </a>
+                            <h5>Go | SQL | AWS Neptune | Docker</h5>
+                        </div>
+                    </div>
+                    <div class='project--pic'>
+                        <a href='https://github.com/jeffcheng1234/BearCloud'>
+                            <img src="assets/img/bearchat.png" alt="">
+                            <div class='project--pic--overlay'></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class='project--body'>
+                <div class='project--container flipped'>
+                    <div class='project--pic'>
+                        <a href='https://github.com/ndesaraju/iHackHealth'>
+                            <img id='pedia' src="assets/img/pedia.png" alt="">
+                            <div class='project--pic--overlay'></div>
+                        </a>
+                    </div>
+                    <div class='project--info'>
+                        <a href='https://github.com/ndesaraju/iHackHealth'>
+                            <h1>Pediatric Pancreatitis Assistant</h1>
+                        </a>
+                        <h3>Health Management iOS App</h3>
+                        <div class='description'>
+                            <p>
+                                Pediatric Pancreatitis Assistant is an iOS app designed to help patients with pediatric pancreatitis disease to track their health conditions and symptoms
+                                as well as provide them with a glossary of professional medical resources from reliable sources. Me and my team created this app for a UCSF client using Swift UI
+                                with firebase as backend and won third place in UCSF iHackHealth hackathon. I led a group of four designing and building the glossary section for the app, in charge
+                                of managing the database that stores several professional medical resources. 
+                            </p>
+                        </div>
+                        <div class='tools'>
+                            <h5>Firebase | Swift UI</h5>
+                            <a href='https://github.com/ndesaraju/iHackHealth'>
+                                <img src="assets/img/github_logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class='project--body'>
+                <div class='project--container'>
+                    <div class='project--info'>
+                        <h1>Gitlet</h1>
+                        <h3>Version Control System</h3>
+                        <div class='description'>
+                            <p>
+                                Gitlet is a version control system built in Java that is modeled off Git. It utilizes file serialization, file and folder structures,
+                                and data structures and algorithm design to minimize runtime and memory usage.
+                                Gitlet supports features including adding/removing files for during staging, commits, checkouts,
+                                branching, resets, logs, and merging with an efficient cross-merging algorithm. For academic violation reasons, the code isn't
+                                public.
+                            </p>
+                            
+                        </div>
+                        <div class='tools'>
+                            <img src="assets/img/github_logo.png" alt="">
+                            <h5>Java</h5>
+                        </div>
+                    </div>
+                    <div class='project--pic'>
+                        <img src="assets/img/gitlet.png" alt="">
+                        <div class='project--pic--overlay'></div>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </div>
+    <div class='contact' id='Contact'>
+        <div class='contact--info'>
+            <a id='contact--me' href="mailto:jeffcheng1234@berkeley.edu">
+                <h1>Contact Me</h1>
+            </a>
+            <a id='contact--email'href="mailto:jeffcheng1234@berkeley.edu">
+                <h2>jeffcheng1234@berkeley.edu</h2>
+            </a>
+            <div class='network--container'>
+                <a href='https://www.facebook.com/jeffery.cheng.507/'> 
+                    <img class='logo' src="assets/img/fb_logo.png" alt=""> 
+                </a>
+                <a href='https://www.instagram.com/jefferycheng1210/' >
+                    <img class='logo' src="assets/img/ig_logo.png" alt="">
+                <a href='https://www.linkedin.com/in/jeffery-cheng-8a7180175/'>
+                    <img class='logo' src="assets/img/in_logo.jpg" alt="">
+                </a>
+                <a href='https://github.com/jeffcheng1234'>
+                    <img class='logo' src="assets/img/github_logo.png" alt="">
+                </a>
+            </div>
+        </div>
 
+
+
+    </div>
     <script type="text/javascript" src="assets/scripts/script.js"></script>
 
 

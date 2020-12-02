@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px 0px 0px 0px;
     font-family: 'Open Sans', sans-serif;
@@ -24,14 +28,16 @@ body {
 }
 
 .nav--button{
-    color: #DEB197;
+    color: #A7785E;
     font-size: 24pt;
     font-weight: bold;
     margin: 0px 22px 0px 22px;
+    font-family: 'Arvo', serif;
 }
 .nav--button a{
+    font-family: 'Arvo', serif;
     text-decoration: none;
-    color: #DEB197;
+    color: #A7785E;
     line-height: 24px;
 }
 .nav--button:hover a{
@@ -105,11 +111,13 @@ body {
     margin: 0px 10% 0px 10%;
     font-size: 24pt;
     color: #6B461B;
+    font-family: 'Arvo', serif;
 }
 
 .experience{
     position: relative;
-    transform: translateY(200px);
+    height: 850px;
+    margin-top: 200px;
 }
 .experience hr.solid {
     border-top: 7px solid #6B461B;
@@ -130,12 +138,13 @@ body {
     width:10%
 }
 #exp--divider--label{
-    width:30%;
+    width:34%;
     margin: 0px 2.5% 0px 2.5%;
 }
 #exp--divider--label h1{
     font-size: 48pt;
     color: #6B461B;
+    font-family: 'Arvo', serif;
 }
 #back--exp--divider{
     width:50%
@@ -145,8 +154,8 @@ body {
     right: 0px;
 }
 .vertical-line{
-    width: 2px;
-    background-color: #6B461B;
+    width: 4px;
+    background-color: #EA9F4B;
     height: 65px;
     /* transform: translateY(-5px); */
     transform: translateX(-10px);
@@ -155,8 +164,8 @@ body {
     opacity: 70%;
 }
 .experience--window{
-    margin: 50px 10% 100px 15%;
-    width: 100%;
+    margin: 50px 0 100px 15%;
+    width: 85%;
     position: relative;
 }
 .experience--head{
@@ -165,7 +174,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     height: 300px;
-    width: 60%;
+    width: 70%;
     margin: 0 2% 60px 2%;
 }
 .experience--bar{
@@ -174,7 +183,7 @@ body {
     flex-direction: row;
     justify-content: left;
     height: 300px;
-    width: 12%;
+    width: 18%;
     /* left: 15%; */
     /* transform: translateY(50px); */
 }
@@ -197,17 +206,25 @@ body {
     background-color: #DEBD97;
     opacity: 60%;
 }
-
+#initial--button{
+    background-color: #6B461B;
+}
+#initial--button--tag{
+    font-weight: bold;
+}
 .experience--button h5{
     text-align: left;
+    font-size: 16pt;
+    margin: 11px 0 11px 0;
+    font-weight: 400;
 }
 .experience--container{
     height: 100%;
-    width: 80%;
+    width: 90%;
     position: absolute;
     display: flex;
     flex-direction: row;
-    margin: 0 5%;
+    margin: 0 5% 0 10%;
     transform: translateX(100px);
 }
 .experience--container h1, h2, h3{
@@ -216,47 +233,50 @@ body {
 .exp--info{
     width: 50%;
 }
-#exp--title{
+.exp--title{
     font-size: 36pt;
     font-weight: bold;
     text-align: center;
 
 }
-#exp--description{
+.exp--description{
     color: #5E5B5B;
     font-weight: bold;
     font-size: 18pt;
     text-align: center;
 
 }
-#exp--position{
+.exp--position{
     color: #6B461B;
     font-size: 18pt;
     font-weight: bold;
     text-align: center;
 }
 .exp--logo{
-    width: 40%;
+    width: 50%;
     height: 100%;
     position: relative;
+    overflow: hidden;
     margin: 0 5%;
 }
 .exp--logo img{
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
     margin: 0 0%;
-    border-radius: 20%;
+    border-radius: 50px;
     position: relative;
 }
 .experience--body{
     width: 50%;
-    margin: 0 5%;
+    margin: 0 18%;
     position: absolute;
 }
 .experience--body li{
     text-align: left;
     font-size: 16pt;
     font-weight: bold;
+    font-family: 'Comic Neue', cursive;
+    line-height: 1.2;
+    margin: 0 0 5px 0;
 }
 .hidden {
   visibility: hidden;
@@ -264,5 +284,219 @@ body {
 }
 #mid--left{
     position: relative;
-    transform: translateY(400px);
+    /* top:200px; */
+    transform: translateY(-50px);
+}
+
+.project{
+    position: relative;
+    height: 1900px;
+    /* margin-top: 200px; */
+}
+.project hr.solid {
+    border-top: 7px solid #6B461B;
+}
+.project--divider{
+    width:70%;
+    left:20%;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    transform: translateY(-150px);
+}
+.project--body{
+    transform: translateY(-100px);
+}
+#front--pro--divider{
+    width:50%
+}
+#pro--divider--label{
+    width:26%;
+    margin: 0px 2.25% 0px 2.5%;
+}
+#pro--divider--label h1{
+    font-size: 48pt;
+    color: #6B461B;
+    font-family: 'Arvo', serif;
+}
+#back--pro--divider{
+    width:20%
+}
+
+.project--container{
+    width: 70%;
+    margin: 2.5% 25% 2.5% 15%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.project--info{
+    width: 50%;
+    margin: 0 0 0 13%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 10;
+}
+.project--info h1{
+    font-size: 26pt;
+    font-weight: bold;
+    color: #602D18;
+    text-decoration: underline;
+    margin: 2px 0 0 20px;
+}
+.project--info a h1{
+    font-size: 26pt;
+    font-weight: bold;
+    color: #602D18;
+    text-decoration: underline;
+    margin: 2px 0 0 20px;
+}
+.project--info h3{
+    font-size: 18pt;
+    color: #5E5B5B;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    margin: 5px 0 10px 20px ;
+    transform: translateY(-5px);
+}
+.project--info .description{
+    background-color: #313215;
+    width: 120%;
+    /* opacity: 70%; */
+    border-radius: 40px;
+}
+.project--info .description p{
+    text-align: left;
+    font-family: 'Comic Neue', cursive;
+    line-height: 1.5;
+    color: #FFFFFF;
+    width: 80%;
+    /* height: 120px; */
+    margin: 3% 0% 3% 9%;
+}
+.project--pic{
+    width: 50%;
+    position: relative;
+}
+.project--pic img, .project--pic--overlay{
+    width: 600px;
+    height: 500px;
+}
+.project--pic--overlay{
+    height: 99%;
+    width: 100%;
+}
+.project--pic--overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.6;
+    transition: 0.3s;
+    background-color: #DDC09F;
+}
+.project--pic--overlay:hover{
+    opacity: 0;
+}
+.tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 35px 0 35px;
+}
+.tools img{
+    width: 30px;
+}
+.tools h5{
+    font-size: 16pt;
+    color: #5E5B5B;
+    margin: 0 10px;
+}
+/* flipped */
+.flipped .project--info{
+    align-items: flex-end;
+    margin: 0 10% 0 0;
+}
+.flipped .project--pic{
+    text-align: right
+}
+#pedia{
+    margin-right: 30px;
+    width: auto;
+    height: auto;
+}
+.flipped .project--info .description p{
+    text-align: left;
+    margin: 3% 5% 3% 10%;
+}
+.flipped .project--pic .project--pic--overlay{
+    width: 328px;
+    height: 585px;
+    margin-left: 242px;
+}
+
+
+.contact{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: #C7B198;
+    /* margin-top: 100px; */
+}
+.contact--info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px 0 0 10%;
+    /* margin-top: 10%; */
+    transform: translateY(20px);
+    position: relative;
+    font-family: 'Arvo', serif;
+}
+.contact h1{
+    width: 400px;
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: left;
+    margin: 5px 0 0 0;
+    position: relative;
+}
+.contact h2{
+    width: 400px;
+    position: relative;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 5px 0 10px 0;
+}
+#contact--me{
+    width: 400px;
+    text-decoration: none;
+    font-size: 28pt;
+    font-weight: bold;
+    color: #000000;
+}
+#contact--email{
+    width: 400px;
+    text-decoration: none;
+    /* font-size: 18pt; */
+    /* font-weight: bold; */
+    color: #FFFFFF;
+}
+.network--container{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.logo{
+    margin:5px 8px;
 }

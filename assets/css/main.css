@@ -213,13 +213,13 @@ body {
     background-color: #6B461B;
 }
 #initial--button--tag{
-    font-weight: bold;
+    font-weight: 800;
 }
 .experience--button h5{
     text-align: left;
     font-size: 16pt;
     margin: 11px 0 11px 0;
-    font-weight: 400;
+    font-weight: 600;
 }
 .experience--container{
     height: 100%;

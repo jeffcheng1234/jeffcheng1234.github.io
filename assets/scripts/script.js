@@ -22,11 +22,11 @@ function showClicked(buttonID) {
         buttons[i].firstElementChild.style.backgroundColor = '#EA9F4B';
     }
     for (let i = 0; i < buttons.length; i++) {
-        buttons[i].children[1].style.fontWeight = 400;
+        buttons[i].children[1].style.fontWeight = 600;
     }
     let pressed = document.getElementById(buttonID);
     pressed.firstElementChild.style.backgroundColor = '#6B461B';
-    pressed.children[1].style.fontWeight = "bold";
+    pressed.children[1].style.fontWeight = 800;
 
     
 }

@@ -8,14 +8,20 @@ body {
     background: #F0ECE3;
     position: relative;
 }
-
+#top--left{
+    position: relative;
+    width: 25%;
+}
+#top--left img{
+    width: 100%;
+}
 .nav--container {
     position: absolute;
-    left: 45%;
+    right: 0%;
     top: 0%;
-    width: 50%;
+    width: 950px;
     margin-top: 25px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 .nav--buttons{
     flex-direction: row;
@@ -172,7 +178,7 @@ body {
     opacity: 70%;
 }
 .experience--window{
-    margin: 50px 0 50px 12.5%;
+    margin: 50px 0 30px 12.5%;
     width: 85%;
     position: relative;
 }
@@ -183,7 +189,7 @@ body {
     justify-content: flex-start;
     height: 300px;
     width: 70%;
-    margin: 0 2% 60px 2%;
+    margin: 0 2% 20px 2%;
 }
 .experience--bar{
     position: relative;
@@ -536,16 +542,16 @@ body {
 }
 @keyframes bubble-bounce { 
     0% { 
-        transform: translateY(-25px) scale(1,1);
+        transform: translateY(-25px);
 
     } 
 
     50% { 
-        transform: translateY(25px) scale(1.1,1.1); 
+        transform: translateY(50px); 
     } 
 
     100% { 
-        transform: translateY(-25px) scale(1,1);
+        transform: translateY(-25px);
     } 
 } 
 #mid--left img, #mid--right img{

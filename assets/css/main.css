@@ -126,22 +126,22 @@ body {
     border-top: 7px solid #6B461B;
 }
 .experience--divider{
-    width:70%;
+    width:80%;
     left:10%;
     flex-direction: row;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     position: relative;
     align-items: center;
     margin: 0px 0px 0px 0px;
 }
 
 #front--exp--divider{
-    width:10%
+    width:10%;
 }
 #exp--divider--label{
-    width:34%;
+    width: 450px;
     margin: 0px 2.5% 0px 2.5%;
 }
 #exp--divider--label h1{
@@ -150,16 +150,21 @@ body {
     font-family: 'Arvo', serif;
 }
 #back--exp--divider{
-    width:50%
+    width:45%
 }
 #mid--right{
+    width: 22%;
     position: absolute;
     right: 0px;
+    /* float: right; */
+}
+#mid--right img{
+    width: 100%;
 }
 .vertical-line{
     width: 4px;
     background-color: #EA9F4B;
-    height: 65px;
+    height: 100%;
     /* transform: translateY(-5px); */
     transform: translateX(-10px);
     float: left;
@@ -167,7 +172,7 @@ body {
     opacity: 70%;
 }
 .experience--window{
-    margin: 50px 0 100px 15%;
+    margin: 50px 0 50px 12.5%;
     width: 85%;
     position: relative;
 }
@@ -186,7 +191,7 @@ body {
     flex-direction: row;
     justify-content: left;
     height: 300px;
-    width: 18%;
+    width: 20%;
     /* left: 15%; */
     /* transform: translateY(50px); */
 }
@@ -223,7 +228,7 @@ body {
 }
 .experience--container{
     height: 100%;
-    width: 90%;
+    width: 100%;
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -240,20 +245,29 @@ body {
     font-size: 36pt;
     font-weight: bold;
     text-align: center;
-
+    margin: 15px 0;
 }
 .exp--description{
     color: #5E5B5B;
     font-weight: bold;
     font-size: 18pt;
     text-align: center;
-
+    margin: 10px 0;
 }
 .exp--position{
     color: #6B461B;
     font-size: 18pt;
     font-weight: bold;
     text-align: center;
+}
+.exp--tsa .exp--title {
+    font-size: 28pt;
+}
+.exp--tsa .exp--description {
+    font-size: 16pt
+}
+.exp--tsa .exp--position {
+    font-size: 16pt;
 }
 .exp--logo{
     width: 50%;
@@ -263,7 +277,8 @@ body {
     margin: 0 5%;
 }
 .exp--logo img{
-    /* height: 100%; */
+    height: 100%;
+    width: 100%;
     margin: 0 0%;
     border-radius: 50px;
     position: relative;
@@ -289,11 +304,15 @@ body {
     position: relative;
     /* top:200px; */
     transform: translateY(-50px);
+    width: 23%;
+}
+#mid--left img{
+    width: 100%;
 }
 
 .project{
     position: relative;
-    height: 1900px;
+    height: 1800px;
     /* margin-top: 200px; */
 }
 .project hr.solid {
@@ -318,7 +337,7 @@ body {
     width:50%
 }
 #pro--divider--label{
-    width:26%;
+    width: 340px;
     margin: 0px 2.25% 0px 2.5%;
 }
 #pro--divider--label h1{
@@ -339,7 +358,7 @@ body {
     justify-content: center;
 }
 .project--info{
-    width: 50%;
+    width: 55%;
     margin: 0 0 0 13%;
     position: relative;
     display: flex;
@@ -391,11 +410,11 @@ body {
     position: relative;
 }
 .project--pic img, .project--pic--overlay{
-    width: 600px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
 }
 .project--pic--overlay{
-    height: 99%;
+    height: 100%;
     width: 100%;
 }
 .project--pic--overlay{
@@ -419,31 +438,42 @@ body {
     width: 30px;
 }
 .tools h5{
-    font-size: 16pt;
+    width: 320px;
+    font-size: 14pt;
     color: #5E5B5B;
     margin: 0 10px;
 }
 /* flipped */
 .flipped .project--info{
     align-items: flex-end;
-    margin: 0 10% 0 0;
+    margin: 0 0 0 0;
 }
 .flipped .project--pic{
-    text-align: right
+    text-align: right;
+    width: 27%;
+    height: 100%;
+    margin: 0 0 0 200px;
+}
+.flipped h1 {
+    font-size: 22pt;
 }
 #pedia{
-    margin-right: 30px;
-    width: auto;
-    height: auto;
+    /* margin-right: 30px; */
+    width: 100%;
+    height: 100%;
 }
+.flipped .tools {
+    text-align: right;
+}
+
 .flipped .project--info .description p{
     text-align: left;
     margin: 3% 5% 3% 10%;
 }
 .flipped .project--pic .project--pic--overlay{
-    width: 328px;
-    height: 585px;
-    margin-left: 242px;
+    width: 100%;
+    height: 99%;
+    /* margin-left: 242px; */
 }
 
 
